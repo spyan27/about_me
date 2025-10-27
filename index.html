@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color: blue;font-size: 50px;">Hello</h1>
+
+    <h3>A subtitle</h3>
+
+    <button id="navigateButton">Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'detail.html';
+        })
+    </script>
+
+    <p id = 'main'>This is <b>sentence</b> 1</p>
+    <p class = "A">This is sentence 2</p>
+    <p>This is <i>sentence</i> 3</p>
+
+    <a href="https://northeastern.edu">Please click this link</a>
+
+    <ul class = "A">
+        <li>first item of list</li>
+        <li>second item of list</li>
+        <li>third item of list</li>
+    </ul>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg/250px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg" alt="This is a picture of a cat" width="300">
+
+</body>
+</html>

@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Second Page </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test</h1>
-    <svg id="scatterplot"></svg>
+    <h1>More Recipes I've Made :)</h1>
+
+    <h2>Cakes</h2>
+
+    <ul style="font-family: sans-serif;">
+        <li>Chocolate-Covered Strawberry Crepe Cake</li>
+        <li>Chocolate Ganache Cake (usually make for my family members' birthdays)</li>
+        <li>Holiday Yule Log</li>
+        <li>Red Velvet Layer Cake</li>
+        <li>Petit-Fours</li>
+    </ul>
+
+    <div class="image-row">
+        <img src="cake1.jpg" alt="Dessert 1">
+        <img src="cake2.jpg" alt="Dessert 2">
+        <img src="cake3.jpg" alt="Dessert 3">
+        <img src="cake4.jpg" alt="Dessert 4">
+        <img src="cake5.jpg" alt="Dessert 5">
+    </div>
+
+    <p>Ever since my first bake sale, I have loved baking and coming up with creative ways to decorate cakes. I can still remember my first-ever birthday party at a cupcake decorating place, and that truly fueled my obsession with baking. Recently, baking has more so served as a helpful stress reliever. Although, depending on the recipe, the activity can also be stress-inducing, particularly if there are a lot of moving parts and potential for things to go wrong. Since coming to college, I have not baked as many cakes as before, and I have definitely lost some patience with the entire process :/. However, it is a hobby I want to get back into and improve upon! Watching Food Network shows has also been a major pastime of mine, especially any of the baking championships series. Some of my favorite series include: Kids Baking Championship, Spring Baking Championship, and Cake Wars (I know the titles are very repetitive lol). It has always been on my bucket list to make and decorate a wedding cake as well! I could go on and on, but I do not want to bore you with more miscellaneous details. <i>So, thank you so much again for reading and learning more about my baking hobby!</i> </p>
+
+    <button id="navigateButton">Back to About Me</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'index.html';
+        })
+    </script>
     
     <script src='https://d3js.org/d3.v7.min.js'></script>
     <script src='test.js'></script>   
